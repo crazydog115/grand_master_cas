@@ -16,7 +16,6 @@ Right now, parts of Grand Master CAS depends on [express](http://expressjs.com/)
       casPath: "/cas",                  // your cas login route (defaults to "/cas")
       ssl: true,                        // is the cas url https? defaults to false
       port: 443,                        // defaults to 80 if ssl false, 443 if ssl true
-      service: "http://localhost:3000", // your site
       sessionName: "cas_user",          // the cas user_name will be at req.session.cas_user (this is the default)
       renew: false,                     // true or false, false is the default
       gateway: false,                   // true or false, false is the default
